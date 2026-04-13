@@ -1,7 +1,7 @@
 Package: tilt
 Type: Package
 Title: Format and Visualize Tilt Meter Data
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: person("Danielle", "Dempsey", email = "ddempsey@perennia.ca", role = c("aut", "cre"))
 Description: Facilitates wrangling and analysis of Current data collected with tilt meters as part of the Centre for Marine Applied Research's Coastal Monitoring Program. 
 License: GPL (>= 3)
@@ -28,11 +28,11 @@ Imports:
     tidyr,
     viridis
 Remotes: 
-    dempsey-CMAR/adcp,
-    dempsey-CMAR/sensorstrings,
-    dempsey-CMAR/qaqcmar
-URL: https://github.com/dempsey-CMAR/tilt
-BugReports: https://github.com/dempsey-CMAR/tilt/issues
+    Centre-for-Marine-Applied-Research/adcp,
+    Centre-for-Marine-Applied-Research/sensorstrings,
+    Centre-for-Marine-Applied-Research/qaqcmar
+URL: https://github.com/Centre-for-Marine-Applied-Research/tilt
+BugReports: https://github.com/Centre-for-Marine-Applied-Research/tilt/issues
 Depends: 
     R (>= 3.5)
 Suggests: 

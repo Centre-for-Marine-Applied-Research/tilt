@@ -30,9 +30,7 @@ tilt_read_tracking <- function(path = NULL, file = NULL, sheet = NULL) {
     file <- "tilt_meter_deployment_tracking.xlsx"
   }
 
-  if(is.null(sheet)) {
-    sheet <- "tracker"
-  }
+  if(is.null(sheet)) { sheet <- "tracker" }
 
   coords_ddm <- c("deployment_latitude_n_ddm", "deployment_longitude_w_ddm",
                   "retrieval_latitude_n_ddm", "retrieval_longitude_w_ddm")

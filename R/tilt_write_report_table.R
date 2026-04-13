@@ -3,9 +3,9 @@
 #' @param metadata Deployment metadata from the tilt meter metadata tracking
 #'   sheet.
 #'
-#' @return Returns a tibble with columns for the report table.
+#' @return Returns a data frame with columns for the report table.
 #'
-#' @importFrom dplyr if_else mutate select tibble
+#' @importFrom dplyr if_else mutate select
 #'
 #' @export
 

@@ -11,7 +11,7 @@ tilt_write_report_table(metadata)
 sheet.}
 }
 \value{
-Returns a tibble with columns for the report table.
+Returns a data frame with columns for the report table.
 }
 \description{
 Writes deployment table for summary report
