@@ -28,7 +28,7 @@
 #' @importFrom shiny fluidPage renderTable shinyApp tableOutput
 #' @importFrom plotly ggplotly event_data plotlyOutput renderPlotly
 #' @importFrom lubridate as_datetime
-#' @importFrom sensorstrings filter_dat_to_plot
+#' @importFrom sensorstrings ss_filter_dat_to_plot
 #' @importFrom stats na.omit
 #'
 #' @export
@@ -63,7 +63,7 @@ tilt_open_trimdates_app <- function(
       dat <- dat %>%
         tilt_pivot_longer() %>%
         filter(variable %in% vars) %>%
-        sensorstrings::filter_dat_to_plot(
+        sensorstrings::ss_filter_dat_to_plot(
           filter_to = filter_to,
           period = period,
           custom_start = custom_start,
